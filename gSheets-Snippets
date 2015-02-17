@@ -1,0 +1,2 @@
+Clean out apostophies and replace spaces with "-" when cleaning up computer names ot be used as hostnames in Google Sheets:
+=LOWER(SUBSTITUTE(SUBSTITUTE(D2," ","-") ; CHAR(39) ; ""))
